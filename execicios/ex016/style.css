@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.merienda-regular {
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #573206, #6d5200);
+    margin: 0;
+    padding: 20px;
+}
+main{
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px #3d06048c;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5em;
+    color: #80653c;
+    text-shadow: 5px 5px 10px #6c5839d6;
+    text-align: center;
+    
+}
+h2{
+    font-family: "Merienda", cursive;
+    font-size: 2em;
+    color: #7ba58d;
+    text-shadow: 5px 5px 10px #597867b4;
+}
+p{
+  font-family: "Caprasimo", serif;
+}

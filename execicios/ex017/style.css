@@ -1,0 +1,13 @@
+@font-face {
+    font-family:'a';
+    src: url('fonte/Korcy.otf') format('opentype'), 
+         url('fonte/Korcy\ Oblique.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family:'a';
+}
