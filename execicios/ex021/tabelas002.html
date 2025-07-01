@@ -7,9 +7,15 @@
     <style>
         table{
             border-collapse: collapse;
+            position: relative;
         }
         td,th{
             border: 1px solid black;
+        }
+        thead > tr > th{
+            position: sticky;
+            background-color:rgb(107, 107, 107); 
+            top: -1px;
         }
         .num{
             text-align: right;
@@ -18,14 +24,27 @@
             background-color: rgb(107, 107, 107);
             color: aliceblue;
         }
+        caption{
+            background-color: rgb(157, 154, 154);
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        tbody>tr:nth-child(2n-1){
+            background-color: rgb(255, 255, 255);
+        }
+        tbody>tr:nth-child(2n){
+            background-color: rgb(102, 103, 104);
+        }
     </style>
 </head>
 <body>
+    <h1>minha tabela</h1>
     <table>
+        <caption>total de abitantes</caption>
             <thead>
                     <tr>
-                        <th>estado</th>
-                        <th>populaçao</th>
+                        <th scope="col">estado</th>
+                        <th scope="col">populaçao</th>
                     </tr>
             </thead>
         <tbody>
@@ -55,9 +74,19 @@
                 </tr>
         </tbody>
         <tfoot>
-                <th>total de populaçao global</th>
+                <th scope="row">total de populaçao global</th>
                 <td class="num"><strong>0000</strong></td>
         </tfoot>
     </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, ad? Quibusdam velit provident dolores sit asperiores a fugit officia magni optio ex modi, repellat, explicabo blanditiis? Asperiores quasi aspernatur ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus non ab laboriosam molestiae, quibusdam necessitatibus quaerat vitae maiores magni consequatur odit qui. Ipsam laboriosam deserunt sunt tempore recusandae iste magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem exercitationem veniam ex dignissimos iusto sunt alias nostrum itaque incidunt, magnam debitis pariatur. Vero iusto ipsam autem illum, harum eveniet fuga.
+    Laudantium quas aliquam reiciendis. Vero, asperiores incidunt! Officia ullam accusantium tempore ipsa expedita ad vitae velit optio debitis! Sed nemo ipsa saepe facere delectus, eveniet voluptas ab omnis voluptate est.
+    Ea accusamus in molestias, quis laborum eius repellendus exercitationem vitae! Voluptatibus dolores ullam alias minima atque nemo labore ipsum incidunt modi voluptatum quos beatae dolore quidem, sequi perferendis laboriosam quas?
+    Maxime quod tenetur libero rerum, possimus aut eos repellat corrupti ab, alias dolorem necessitatibus ut pariatur autem voluptate cumque, quis facere id quia voluptatem ipsam. Repellendus repudiandae unde quo laboriosam?
+    Laboriosam quisquam quae pariatur cumque, totam, labore eaque consequuntur officiis, debitis quidem ut esse. Possimus dolore debitis vero reiciendis, impedit nostrum optio laudantium rem delectus officia, excepturi ipsa harum repudiandae!
+    Quidem maxime est quibusdam suscipit perspiciatis similique nam! Odit consectetur quas nostrum quis sed provident, harum quisquam perferendis, sit eveniet amet vero, porro inventore modi nemo necessitatibus impedit. Fugit, accusantium!
+    Voluptatem perferendis eligendi voluptatibus porro animi. Suscipit enim nam ullam. Ea nisi laudantium quis, quod possimus ex veniam sunt similique nesciunt incidunt voluptate. Quo quam neque alias dicta. Vero, illo.
+    Dolores, consequatur odio! Tempore, voluptatem recusandae vero officiis sed enim illum sit fuga provident omnis quos porro debitis minus beatae culpa ad eveniet accusantium suscipit veniam ducimus eius hic adipisci.
+    Expedita, ipsam, dolore quis labore culpa optio nihil pariatur consectetur praesentium explicabo veritatis accusamus, fugiat autem officiis quidem libero doloremque dolorum! Sapiente, illum exercitationem at ut modi dolorum placeat dolorem?
+    Non ratione itaque cupiditate deserunt animi repellat quae, vel quos rem amet! Nobis voluptatibus aspernatur unde eaque accusamus quae! Iusto consequatur sit nobis ipsam aliquid adipisci delectus fugiat! Perspiciatis, aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet corporis, harum, quaerat laudantium, iure laboriosam accusantium consectetur beatae quibusdam tenetur est? Quo atque sequi, id ut dolor labore voluptatum. Sapiente?</p>
 </body>
 </html>
