@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formlario</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form action="dados.php" method="post">
+      <p>
+        <label for="iusu">usuario: </label>
+        <input type="text" name="usu" id="iusu"
+        required maxlength="10">
+      </p>
+      <p>
+        <label for="isenha">senha:</label>
+        <input type="password" name="senha" id="isenha" required maxlength="20"
+        minlength="8">
+      </p>
+      <input type="submit" value="enviar">
+      <input type="reset" value="apagar">
+      
+    </form>
+</body>
+</html>
