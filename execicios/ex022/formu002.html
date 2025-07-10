@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de formulario</title>
+</head>
+<body>
+    <h1>formulario</h1>
+    <form >
+        <p>
+            <label for="iest">estado:</label>
+            <select name="est" id="iest">
+                <option value="RN">rio grande do norte</option>
+                <option value="JP">rio de janeiro</option>
+                <option value="casa">casa do kralho</option>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">profissao:</label>
+            <input type="text" name="prof" id="iprof" list="lista">
+            <datalist id="lista">
+                <option value="prof">professor</option>
+                <option value="consi">consinheiro</option>
+                <option value="vendendo">vendendor de droga</option>
+            </datalist>
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="apagar">
+        </p>
+    </form>
+</body>
+</html>
